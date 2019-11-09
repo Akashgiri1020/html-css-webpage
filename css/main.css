@@ -1,0 +1,87 @@
+body {
+    background-color: #d5dff2;
+}
+
+#favPerson {
+    font-size: 40pt;
+    text-align: center;
+}
+
+#favPerson, #favoriteHeading, #aboutYou, #gallery {
+    background-color: #77c4d1;
+}
+
+#nfOnStage {
+    height: 400px;
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.favorites h2, li {
+   text-align: left;
+}
+
+    .favorites li {
+        list-style-type: none;
+        font-size: 15pt;
+    }
+
+    .favorites li span {
+        font-weight: bold;
+    }
+
+table, td {
+    border: 2px solid #535e61;
+}
+
+form {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+    input[type=text], #state {
+        width: 50%; 
+        display: block;
+        border-radius: 4px;
+        border: 1px solid gray;
+        padding: 12px 20px;
+    }
+
+    input[type=email] {
+        margin: 10px 10px;
+        width: 30%;
+    }
+
+    label#verification {
+        margin-left: 15px;
+    }
+
+    label[for=state] {
+        display: block;
+    }
+
+        label[for=yes] {
+            margin-left: 10px;
+        }
+
+    #state {
+        margin-top: 5px;
+        height: 30px;
+    }
+
+    input[type=submit] {
+        width: 20%;
+        background-color: #77c4d1;
+        font-weight: bold;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+#galleryImg {
+    width: 200px;
+    display: inline-block;
+    margin-left: 20%;
+}

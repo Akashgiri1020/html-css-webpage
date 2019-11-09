@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>An Inspirational Person</title>
+</head>
+<body>
+    <div class="heading">
+        <h1 id="favPerson">NF</h1>
+    </div>
+    <div class="about">
+        <img id="nfOnStage" src="imgs/nfOnStage.png" alt="NF performing on stage">
+        <p id="personInfo">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia viverra 
+            risus et porttitor. Mauris vel venenatis tellus. Fusce suscipit massa bibendum quam 
+            finibus, in dapibus nisi maximus. Nullam ultrices arcu eget augue vulputate sagittis. 
+            Sed quis dolor ac velit faucibus finibus id quis nisi. Aenean laoreet tellus justo, vel 
+            euismod purus cursus at. Integer rutrum magna non mauris lacinia, a ornare sem interdum. Integer condimentum, massa vel ornare rhoncus, eros quam laoreet lorem, eget pulvinar lorem diam tempus ligula. Sed mauris neque, mattis iaculis sapien nec, pretium ultricies nulla. Integer rutrum ipsum eu enim efficitur pulvinar. Morbi at est hendrerit, lobortis nibh id, iaculis ante. Nunc eget ligula diam. Fusce vel massa sit amet dolor malesuada aliquet. Ut cursus metus in dolor dapibus rhoncus.
+        </p>
+    </div>
+    <div class="favorites">
+        <h2 id="favoriteHeading">Notable things this person has done to inspire you?</h2>
+        <ul>
+            <li>Great Rapper -  Nullam ultrices arcu eget augue vulputate sagittis. Sed quis dolor ac velit</li>
+            <li><span>Cares about Family</span> - eget pulvinar lorem diam tempus ligula. Sed</li>
+            <li>Greatful for Fans - Fusce vel massa sit amet dolor malesuada aliquet. Ut cursus </li>
+        </ul>
+    </div>
+
+    <table style="margin: auto;">
+        <thead>
+            <tr>
+                <th>Favorites</th>
+                <th>Non Favorites</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rapping</td>
+                <td>People who talk about his family</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h2 id="gallery">Gallery</h2>
+    <div class="gallery">
+            <img id="galleryImg" src="imgs/nfOnStage.png" alt="NF performing on stage">
+            <img id="galleryImg" src="imgs/nfOnStage.png" alt="NF performing on stage">
+        
+    </div>
+    <div class="gallery2">
+            <img id="galleryImg" src="imgs/nfOnStage.png" alt="NF performing on stage">
+            <img id="galleryImg" src="imgs/nfOnStage.png" alt="NF performing on stage">
+    </div>
+    
+    <h2 id="aboutYou">Tell us about you: </h2>
+    <form>
+        <label for="yourName">Name: </label>
+        <input type="text" name="yourName" placeholder="What is your name? ">
+        
+        <label for="email">Email: </label>
+        <input type="email" name="yourEmail" id="yourEmail" placeholder="What is your email? ">
+        
+        <label for="verification" id="verification">Can we occassionally send you info about NF?</label>
+        <label for="yes">Yes</label>
+        <input type="radio" name="yes" id="yes" value="yes" checked>
+        
+        <label for="no">No</label>
+        <input type="radio" name="no" id="no" value="no">
+        
+        <label for="state">Where are you from? </label>
+        <select name="state" id="state">
+            <option value="texas">Texas</option>
+            <option value="michigan">Michigan</option>
+            <option value="newYork">New York</option>
+            <option value="california">California</option>
+        </select>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
